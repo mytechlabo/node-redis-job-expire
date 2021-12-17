@@ -7,7 +7,7 @@ subscribe.connect();
 
 subscribe.pSubscribe("__keyevent@0__:expired", (message, channel) => {
   console.log("Channel: ", channel);
-  console.log("Sau khi chung ta co orderID: ", message);
+  console.log("Don hang qua han chua thanh toan orderID: ", message);
   // Update trong BD la orderID chua thanh toan...
 });
 
